@@ -30,7 +30,7 @@ function sendMensaje(){
 function clean(){
 	var textarea = document.getElementById("message");
 	textarea.value = "";
-	textarea.focus(); // para que se ubique el cursor
+	textarea.focus(); 
 }
 function marcarTexto(elemento){
 	var marcado = elemento.checked;
